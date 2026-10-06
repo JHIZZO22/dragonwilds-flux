@@ -1,0 +1,2 @@
+ghcr.io/runescape/rsdw-dedicated:latest
+  flux-entrypoint.sh /flux-entrypoint.sh
