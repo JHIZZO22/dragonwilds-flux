@@ -22,7 +22,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ JHIZZO22 }}
+          username: ${{ 'JHIZZO22' }}
           password: ${{ secrets.GHCR_PAT }}
 
       - name: Build and push
